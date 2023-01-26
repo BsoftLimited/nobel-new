@@ -1,5 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BaseProvider, LightTheme } from "baseui";
+//import { Provider as StyletronProvider } from "styletron-react";
+//import { Client as Styletron } from "styletron-engine-atomic";
+
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +14,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+   <BaseProvider theme={LightTheme}>
+      <App />
+    </BaseProvider>
   </React.StrictMode>
 );
 
