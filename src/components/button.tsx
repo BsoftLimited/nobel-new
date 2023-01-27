@@ -14,7 +14,7 @@ const onMouseOut = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, colo
     el.style.backgroundColor = bgColor;
 };
 
-const Button = (props: { text: string, className: string, href: string, newTab?: boolean, theme: Theme }) =>{
+const Button = (props: { text: string, className?: string, href: string, newTab?: boolean, theme: Theme }) =>{
     return (
         <div className={props.className}>
             <a className="main-button" href={props.href} target={props.newTab ? "_blank" : undefined}
