@@ -95,7 +95,7 @@ export const socialMediaLinks: SocialMediaLink[] = [
     },
     {
         name: "Gmail",
-        link: "okelekelenobel@gmail.com",
+        link: "https://okelekelenobel@gmail.com",
         iconifyIcon: "mdi:gmail",
         backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
     },
@@ -621,7 +621,7 @@ export const projectsHeader = {
   export const contactPageData = {
     contactSection: {
       title: "Contact Me",
-      profile_image_path: "seo.jpg",
+      profile_image_path: "ceo.jpg",
       description:
         "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
     },
@@ -630,17 +630,16 @@ export const projectsHeader = {
       subtitle:
         "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
       link: "https://blogs.ashutoshhathidara.com/",
-      avatar_image_path: "blogs_image.svg",
+      
     },
     addressSection: {
       title: "Address",
       subtitle:
         "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
-      avatar_image_path: "address_image.svg",
       location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
     },
     phoneSection: {
-      title: "",
-      subtitle: "",
+      title: "Phone Number",
+      subtitle: "+234 708 795 2034",
     },
   };
